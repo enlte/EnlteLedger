@@ -23,6 +23,9 @@ You can directally open this app without installing into the system. You have to
 java -jar EnlteLedger.jar
 But, please confirmed that you are on the main directory of project in command prompt.
 
+# Usage
+<a href="https://imgflip.com/gif/2310wy"><img src="https://i.imgflip.com/2310wy.gif" title="made at imgflip.com"/></a>
+
 # Build Path: 
 You can find the build under dist folder.
 
