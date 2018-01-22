@@ -1,14 +1,7 @@
 
 # Enlte
-We propose a location-based small world social internet with the characteristics of providing more
-intelligent queries, connections and better results. Giving one universal identity of user with power of
-being anonymous. Using the power to rating an experience to develop a database of a universal
-reputation system based on blockchain with hierarchy of Maple Roots. Giving an opportunity to the users
-to rate their experiences, problems and broadcast it to the people nearby as well as geostamp &
-geo-fencing it forever. Other users, organisations can help resolve the issue or bad experience or we will
-be able to spread awareness to help other people from similar experience. Decentralising the power to
-the people by motivating users to help each other and spread awareness and earn enlte tokens in
-exchange of that.
+A decentralized blockchain based system to solve real life problems without going through a centralised government or an organisation. A location based social engine creating an adjustable small world phenomenon with faster and better networking capabilities. It aims to  give power to the people by giving them power to rate any experience using their identity or anonymously and broadcasting it to the network with sending real-time updates to people nearby and leaving geo-stamp along with geofencing the experience. Negative experiences are broadcasted to nearby nodes real time and giving them opportunity to nearby nodes to earn enlte coins by helping them and for the broadcasting node to spread awareness and standing up against it. 
+Our aim is to give power to the people with creating a powerful platform which could be used in app and could be used to upload pictures, videos of anything wrong going near them and broadcast it on the network and leave it for the people to take an action against it. 
 
 # Introduction: 
 This app is an desktop application. It is used to view the logs of all ongoing transaction in blockchain. These trasactions are public and each user can view the all updates.
