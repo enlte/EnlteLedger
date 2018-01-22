@@ -24,7 +24,7 @@ java -jar EnlteLedger.jar
 But, please confirmed that you are on the main directory of project in command prompt.
 
 # Usage
-![sample] (screenshots/sample.gif)
+![sample](screenshots/sample.gif)
 
 # Build Path: 
 You can find the build under dist folder.
