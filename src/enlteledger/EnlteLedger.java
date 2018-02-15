@@ -22,6 +22,8 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
 import org.json.JSONObject;
+import presenter.BroadcastedPost;
+import presenter.BroadcastedTransaction;
 
 /**
  *
@@ -50,7 +52,7 @@ public class EnlteLedger {
             //Sample.main(new String[0]);
             Timer time = new Timer(); // Instantiate Timer Object
             ScheduledTask st = new ScheduledTask(); // Instantiate SheduledTask class
-            time.schedule(st, 0, 3000); // Create Repetitively task for every 1 secs
+            time.schedule(st, 0, 10000); // Create Repetitively task for every 1 secs
             // TODO code application logic here
         }
 
@@ -68,7 +70,9 @@ public class EnlteLedger {
         public void run() {
             now = new Date(); // initialize date
             System.out.println("Time is :" + now); // Display current time
-            hitBlockChain();
+            //hitBlockChain();
+            new BroadcastedPost().checkBroadcastedHash();
+            new BroadcastedTransaction().checkBroadcastedHash();
         }
     }
 
