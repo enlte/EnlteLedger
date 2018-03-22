@@ -52,7 +52,7 @@ public class EnlteLedger {
             //Sample.main(new String[0]);
             Timer time = new Timer(); // Instantiate Timer Object
             ScheduledTask st = new ScheduledTask(); // Instantiate SheduledTask class
-            time.schedule(st, 0, 10000); // Create Repetitively task for every 1 secs
+            time.schedule(st, 5000, 50000); // Create Repetitively task for every 1 secs
             // TODO code application logic here
         }
 
@@ -71,7 +71,7 @@ public class EnlteLedger {
             now = new Date(); // initialize date
             System.out.println("Time is :" + now); // Display current time
             //hitBlockChain();
-            new BroadcastedPost().checkBroadcastedHash();
+            //new BroadcastedPost().checkBroadcastedHash();
             new BroadcastedTransaction().checkBroadcastedHash();
         }
     }
